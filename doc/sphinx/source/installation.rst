@@ -9,9 +9,8 @@ Current version:
 
     Available on PyPI, http://pypi.python.org/pypi/PyFMI
 
-Additionally, PyFMI is available through `conda <http://conda.pydata.org/docs/index.html>`_::
-
-    conda install -c https://conda.binstar.org/chria pyfmi
+Using PIP
+=========
 
 Requirements:
 -------------
@@ -32,3 +31,10 @@ Once all the requirements are satisfied the installation is performed using the 
     python setup.py install --fmil-home=/path/to/fmil
     
 Where the flag "--fmil-home" should point to where FMI Library has been installed.
+
+Using CONDA
+===========
+
+Additionally, PyFMI is available through `conda <http://conda.pydata.org/docs/index.html>`_::
+
+    conda install -c conda-forge pyfmi
